@@ -138,13 +138,11 @@ const ContactLocationSection = ()=>{
               Replace the 'q=' query with your actual business address.
           */}
           <iframe
-            title="Business Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6175401016896!2d-73.9856!3d40.7484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9aeb1c1fd%3A0x6b1f2b604b90412e!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1690000000000!5m2!1sen!2sus&q=Empire%20State+Building"
-            className="absolute inset-0 h-full w-full border-0"
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+  title="Business Location"
+  src="https://www.google.com/maps?q=Empire%20State%20Building&output=embed"
+  className="absolute inset-0 h-full w-full border-0"
+  loading="lazy"
+/>
         </motion.div>
       </div>
     </section>
